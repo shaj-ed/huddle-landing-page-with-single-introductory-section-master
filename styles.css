@@ -54,7 +54,7 @@ header {
 
 .wrapper {
     padding: 2.5rem;
-    max-width: 128.5rem;
+    max-width: 130rem;
     margin: 0 auto;
 }
 
@@ -151,6 +151,10 @@ header {
         gap: 5rem;
         grid-template-columns: 1fr .8fr;
         align-items: center;
+    }
+
+    .hero img {
+        max-width: none;
     }
 
     .hero-content {
